@@ -1,0 +1,170 @@
+/**
+* My Portfolio 
+**/
+
+
+body {
+	font-size: 24px;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	background-color: #cccccc;
+}
+
+.header {
+	
+	background-color: #ffffff;
+	overflow: auto;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.header h1 {
+	font-size: 25px;
+	font-color: #777777;
+	display: inline-block;
+	padding: 40px;
+	background-color: #4aaaa5;
+	margin: 0px;
+}
+
+.nav {
+	float: right;
+	background-color: #ffffff;
+	margin-bottom: 0;
+	margin-right: 20px;
+	color: #333;
+	padding: 20px 0px 20px 0px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.container {
+	width: 960px;
+	margin-left: 480px;
+	margin-top: 25px;
+	margin: 0 auto;
+}
+
+.main-bio {
+	
+	width: 650px;
+	height: 600px;
+	background-color: white;
+	overflow: hidden;
+	float: left;
+
+
+}
+
+.portfolio h2 {
+	
+	font-size: 25px;
+	color: #777777;
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+
+.box1 {
+	margin: 10px;
+	width: 300px;
+	height: 170px;
+	background-color: yellow;
+	float: left;
+	
+}
+
+.box2 {
+	margin: 10px;
+	width: 300px;
+	height: 170px;
+	background-color: red;
+	float: left;
+	float: clear;
+	
+}
+
+.box3 {
+	margin: 10px;
+	width: 300px;
+	height: 170px;
+	background-color: lightblue;
+	float: left;
+	
+}
+
+
+.box4 {
+	margin: 10px;
+	width: 300px;
+	height: 170px;
+	background-color: orange;
+	float: left;
+	
+}
+
+.box5 {
+	margin: 10px;
+	width: 300px;
+	height: 170px;
+	background-color: #ffa07a;
+	float: left;
+	clear: right;
+}
+
+
+
+
+
+
+
+.links {
+	width: 270px;
+	height: 110px;
+	background-color: white;
+	margin-left: 40px;
+	float: left;
+}
+
+.connect h3 {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+.icons {
+	padding-top: 5px;
+	margin-left: 0 auto;
+
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: orange;
+	}
+
+	.container {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		background-color: red;
+	}
+
+	.container {
+		width: 600px;
+	}
+}
